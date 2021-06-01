@@ -1,0 +1,94 @@
+.profile-parent {
+    display: grid;
+    grid-template-columns: minmax(150px, 25%) 1fr;
+    height: 100vh;
+}
+
+.sidebar {
+    padding: 1em;
+}
+
+.feed {
+    padding: 2em 1em 1em;
+}
+
+.loader {
+    margin-top: 30%;
+}
+
+.avatar-row, .about-row, .stats-row, .loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 2em;
+}
+
+.rating-row {
+    text-align: center;
+    margin-top: 1em;
+    color: burlywood;
+    margin-bottom: 4em;
+}
+
+.rating-row .fa-star {
+    font-size: large;
+}
+
+.rating-row .checked {
+    color: orange;
+}
+
+.about-row {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.about-row h3 {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.about-row h5, i {
+    display: inline-block;
+    padding-left: -10px;
+}
+
+.about-row div {
+    margin-top: -30px;
+}
+
+.stats-row .count {
+    display: table-cell;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.stats-row .count p {
+    font-size: smaller;
+}
+
+.stats-row .count h2 {
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 0px;
+}
+
+.image-item, .video-item {
+    box-shadow: 1px solid grey;
+    background: #c3fdff;
+    margin: 1em;
+    border: 0;
+    width: 40%;
+    height: 300px;
+}
+
+.hidden {
+    display: none;
+}

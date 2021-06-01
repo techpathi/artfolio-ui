@@ -1,0 +1,27 @@
+.search-form input {
+    font-size: larger;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid #bdb9b7;
+    background-color: #efebe9;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid lightslategray;
+}
+
+input{
+    width: 300px;
+}
+
+.search-form {
+    background-color: #efebe9;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}

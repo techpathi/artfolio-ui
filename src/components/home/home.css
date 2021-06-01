@@ -1,0 +1,13 @@
+.parent {
+    height: 100%;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .search-box{
+    margin-top: 20%;
+}
